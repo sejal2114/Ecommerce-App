@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E9910829-57AF-42F0-BED3-2B1CA83F1B9E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36FA4312-E5EF-4B73-99B3-072CB95C9E73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/objc/NSObject.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "NSObject"
+            landmarkType = "2">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98E3585D-5ED6-499D-B591-E47571584131"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C81F2A6-8B4C-48A1-8166-007C85E8FB26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27623221-BE1D-4685-B0AA-1EA975135D1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10D57FEB-6CEE-4EEE-83A9-715BEA7A0CFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ecommerce_Application/ProductCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ProductCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "10D57FEB-6CEE-4EEE-83A9-715BEA7A0CFC - af52d8cf301a9a03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ecommerce_Application.ProductCollectionViewCell.titleLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ecommerce_Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sejal/Documents/Ecommerce_Application/Ecommerce_Application/Ecommerce_Application/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "10D57FEB-6CEE-4EEE-83A9-715BEA7A0CFC - d6ecc184083f460f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ecommerce_Application.ProductCollectionViewCell.titleLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ecommerce_Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sejal/Documents/Ecommerce_Application/Ecommerce_Application/Ecommerce_Application/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "10D57FEB-6CEE-4EEE-83A9-715BEA7A0CFC - bf5bf0f5245b4100"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ecommerce_Application.ProductCollectionViewCell.titleLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ecommerce_Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sejal/Documents/Ecommerce_Application/Ecommerce_Application/Ecommerce_Application/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "10D57FEB-6CEE-4EEE-83A9-715BEA7A0CFC - 970f6cc33d701fe7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ecommerce_Application.ProductCollectionViewCell.titleLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Ecommerce_Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sejal/Documents/Ecommerce_Application/Ecommerce_Application/Ecommerce_Application/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "10D57FEB-6CEE-4EEE-83A9-715BEA7A0CFC - 1f7ba090bc9e9ec8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ecommerce_Application.ProductCollectionViewCell.init(frame: __C.CGRect) -&gt; Ecommerce_Application.ProductCollectionViewCell"
+                  moduleName = "Ecommerce_Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sejal/Documents/Ecommerce_Application/Ecommerce_Application/Ecommerce_Application/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "10D57FEB-6CEE-4EEE-83A9-715BEA7A0CFC - 1682af3f85ed0f10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ecommerce_Application.ProductCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ecommerce_Application.ProductCollectionViewCell&gt;"
+                  moduleName = "Ecommerce_Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sejal/Documents/Ecommerce_Application/Ecommerce_Application/Ecommerce_Application/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
