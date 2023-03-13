@@ -16,20 +16,8 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" highlightedImage="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="FkO-rd-Pz7">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FkO-rd-Pz7" secondAttribute="bottom" id="0wy-7R-id9"/>
-                            <constraint firstAttribute="trailing" secondItem="FkO-rd-Pz7" secondAttribute="trailing" id="IQm-SX-u0V"/>
-                            <constraint firstItem="FkO-rd-Pz7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QWg-8g-rIh"/>
-                            <constraint firstItem="FkO-rd-Pz7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Whw-hi-iKg"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -38,7 +26,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="welcome" width="996" height="996"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

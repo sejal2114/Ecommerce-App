@@ -12,7 +12,7 @@ class CartTableViewCell: UITableViewCell {
     @IBOutlet weak var cartNameLabel: UILabel!
     @IBOutlet weak var productcollectionView: UICollectionView!
     var productArray: [Product] = []
-
+    var viewController: UIViewController?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -40,13 +40,21 @@ extension CartTableViewCell : UICollectionViewDelegate , UICollectionViewDataSou
         let cell = productcollectionView.dequeueReusableCell(withReuseIdentifier: "ProductCollectionViewCell", for: indexPath) as! ProductCollectionViewCell
         let productItem = productArray[indexPath.row]
         cell.titleLabel.text = productItem.title
-        cell.priceLabel.text = "\(productItem.price)"
-        cell.discountLabel.text = "\(productItem.discountedPrice)"
+        if let image = RandomData().getRandomUIImage() {
+            cell.productImageView.image = image
+        }
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         CGSize(width: 50, height:50)
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selecteditem = productArray[indexPath.row]
+        let ProductDetailsViewController = (viewController?.storyboard?.instantiateViewController(withIdentifier: "ProductDetailsViewController") as! ProductDetailsViewController)
+        ProductDetailsViewController.product = selecteditem
+        viewController?.navigationController?.pushViewController(ProductDetailsViewController, animated: true)
+        
+    }
     
 }
+

@@ -23,6 +23,7 @@ class CartViewController: UIViewController {
 //    }
         override func viewDidLoad() {
         super.viewDidLoad()
+        title = "SHOP NOW"
        fetchApi(url: "https://dummyjson.com/carts", methodOfHttp: "GET")
       // populateCartData()
        registerXib()
@@ -47,10 +48,10 @@ extension CartViewController : UITableViewDataSource , UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = cartTableView.dequeueReusableCell(withIdentifier: "CartTableViewCell", for: indexPath) as! CartTableViewCell
+        cell.viewController = self
         let carrItem = cartArray[indexPath.row]
         cell.cartNameLabel.text = " Cart \(carrItem.id)"
         cell.productArray = carrItem.products
-       
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

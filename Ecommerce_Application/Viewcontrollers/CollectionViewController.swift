@@ -9,8 +9,8 @@ import UIKit
 class CollectionViewController: UIViewController {
    
     @IBOutlet weak var dashboardCollectionView: UICollectionView!
-    var dashboardItemArray : [DashboardItem] =  [ DashboardItem(id: 1, name: "Carts", image: "cart"), DashboardItem(id: 2, name: "Photos", image: "photo"), DashboardItem(id: 3, name: "Comments", image: "comments") , DashboardItem(id: 4, name: "Post", image: "post")]
-                                                  
+    var dashboardItemArray : [DashboardItem] =  [ DashboardItem(id: 1, name: "Carts", image: "cart"), DashboardItem(id: 2, name: "Products", image: "Mobile"), DashboardItem(id: 3, name: "Comments", image: "comments") , DashboardItem(id: 4, name: "Post", image: "post")]
+    var username = ""
 //    //func poulatedata(){
 //        let item1 = DashboardItem(id: 1, name: "Cart" , image: "cart")
 //        let item2 = DashboardItem(id: 2, name: "Photos", image: "Gallery")
@@ -25,6 +25,7 @@ class CollectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        // poulatedata()
+        title = username
         let nib = UINib(nibName: "ListCollectionViewCell", bundle: nil)
         dashboardCollectionView.register(nib, forCellWithReuseIdentifier: "ListCollectionViewCell")
     
@@ -55,14 +56,20 @@ extension CollectionViewController : UICollectionViewDelegate,UICollectionViewDa
             let cartViewController = (self.storyboard?.instantiateViewController(withIdentifier: "CartViewController") as! CartViewController)
             self.navigationController?.pushViewController(cartViewController, animated: true)
         }
-        else if selecteditem.name == "Photos"{
+        else if selecteditem.name == "Products"{
+            
+                let mobileProductViewController = (self.storyboard?.instantiateViewController(withIdentifier: "MobileProductsViewController") as! MobileProductsViewController)
+                self.navigationController?.pushViewController(mobileProductViewController, animated: true)
             
         }
         else if selecteditem.name == "Comments"{
-            
+            let CommentsViewController = (self.storyboard?.instantiateViewController(withIdentifier: "CommentsViewController") as! CommentsViewController)
+            self.navigationController?.pushViewController(CommentsViewController, animated: true)
         }
         else if selecteditem.name == "Post"{
-            
+            let PostViewController = (self.storyboard?.instantiateViewController(withIdentifier: "PostViewController") as! PostViewController)
+            self.navigationController?.pushViewController(PostViewController, animated: true)
+        
         }
         
     }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="152" id="KGk-i7-Jjw" customClass="MobileTableViewCell" customModule="Ecommerce_Application" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="152"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbw-ug-pbR">
+                        <rect key="frame" x="10" y="9.9999999999999982" width="152" height="26.333333333333329"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz4-aN-jx4">
+                        <rect key="frame" x="10" y="46.333333333333336" width="48" height="24.000000000000007"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <color key="highlightedColor" red="0.86646336319999995" green="0.79542905090000005" blue="0.83529824019999999" alpha="0.54685701279999999" colorSpace="custom" customColorSpace="displayP3"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vaY-LJ-HxS">
+                        <rect key="frame" x="172" y="5" width="162" height="144"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mbw-ug-pbR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Bb3-TK-78u"/>
+                    <constraint firstAttribute="trailing" secondItem="vaY-LJ-HxS" secondAttribute="trailing" id="FUO-Nd-Y66"/>
+                    <constraint firstItem="Mbw-ug-pbR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Fdb-a3-XV4"/>
+                    <constraint firstItem="Oz4-aN-jx4" firstAttribute="top" secondItem="Mbw-ug-pbR" secondAttribute="bottom" constant="10" id="GPN-fo-Xmp"/>
+                    <constraint firstItem="Oz4-aN-jx4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="LyZ-0M-FNx"/>
+                    <constraint firstItem="vaY-LJ-HxS" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.48503" id="dkI-Gg-wBv"/>
+                    <constraint firstItem="vaY-LJ-HxS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="tRf-kp-DRW"/>
+                    <constraint firstAttribute="bottom" secondItem="vaY-LJ-HxS" secondAttribute="bottom" constant="3" id="wvQ-hF-Ail"/>
+                    <constraint firstItem="vaY-LJ-HxS" firstAttribute="leading" secondItem="Mbw-ug-pbR" secondAttribute="trailing" constant="10" id="ylq-YH-6NJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="mobileImageView" destination="vaY-LJ-HxS" id="7Dv-Jh-ubi"/>
+                <outlet property="mobileTitleLabel" destination="Mbw-ug-pbR" id="jwS-sW-euk"/>
+                <outlet property="mobilepriceLabel" destination="Oz4-aN-jx4" id="c1H-6O-Jx6"/>
+            </connections>
+            <point key="canvasLocation" x="282.44274809160305" y="26.760563380281692"/>
+        </tableViewCell>
+    </objects>
+</document>

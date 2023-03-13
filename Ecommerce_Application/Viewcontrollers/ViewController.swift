@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         if users.keys.contains(username) {
             if password == users[username] {
                 let listController = storyboard?.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
+                listController.username = username
                 self.navigationController?.pushViewController(listController, animated: true)
             }
         } else {
